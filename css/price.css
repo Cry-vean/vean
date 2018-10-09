@@ -1,0 +1,269 @@
+.navbar-brand{
+	margin-top: -15px;
+}
+.listnav>li a:hover{
+	border-bottom:1px solid red;
+}
+.listnav li{
+	background: #fff;
+}
+.current{
+	border-bottom: 1px solid red;
+}
+.box{
+	background: #fff;
+	height: 82px;
+}
+.box .container{
+	margin-top: 30px;
+}
+
+
+@media only screen and (max-width:992px ) {
+	/*.listnav li{
+		display: none;
+	}*/
+	/*.btn{
+		display: block;
+	}*/
+	.box{
+		height: 52px;
+	}
+	.box .container{
+		margin-top: 0px;
+	}
+	.navbar-brand img{
+		height: 20px;
+		margin-top: 15px;
+	}
+}
+/*.btn{
+	float: left;
+}*/
+.box1{
+	width: 100%;
+	background: #d0333d;
+	height: 350px;
+	margin-top: 100px;
+}
+.box1 .price{
+	font-size: 50px;
+	color: #fff;
+	font-weight: 100;
+	margin-top: 100px;
+}
+@media only screen and (max-width:647px ) {
+	.box1 .price{
+	font-size: 30px;
+	}
+}
+.box1 .team{
+	color: #fff;
+	font-size: 15px;
+}
+.btnenjoy{
+	margin:30px auto;
+	border-radius: 20px;
+	border:1px solid #f6b465;
+	height:50px;
+	width: 200px;
+	font-size: 20px;
+	background: #fff;
+}
+.btnenjoy a{
+	color: red;
+	text-decoration: none;
+}
+.title{
+	font-size:35px;
+	color:#000;
+}
+.box2{
+	margin-top: 50px;
+}
+.content{
+	font-size: 15px;
+	color: #666666;
+}
+.box3{
+	margin-top: 50px;
+}
+.box3 h3{
+	font-size: 20px;
+	font-weight: 50;
+}
+.content1{
+	color: #666666;
+}
+.liaojie{
+	color:#999999;
+	margin-top: 30px;
+}
+.price1{
+	color:#666666;
+	margin-top: 30px;
+}
+.price1 span{
+	font-size: 20px;
+	
+}
+.box3 button{
+	margin-top: 20px;
+	border-radius: 20px;
+	border:1px solid #ccc;
+	height:40px;
+	width: 130px;
+	font-size: 15px;
+	background: #fff;
+	color: #666666;
+}
+.div1{
+	border-top: 5px solid #5cdd91;
+}
+.div2{
+	border-top: 5px solid #f6b465;
+}
+.div3{
+	border-top: 5px solid #74b8ef;
+}
+.div4{
+	border-top: 5px solid #b38be5;
+}
+.box4,.box5,.box6,.box7,.box8,.box9,.box10{
+	margin-top: 50px;
+}
+
+.box5 button{
+	margin-top: 20px;
+	border-radius: 20px;
+	border:1px solid #ccc;
+	height:40px;
+	width: 130px;
+	font-size: 15px;
+	background: #fff;
+	color: #666666;
+}
+
+.box7 button{
+	margin-top: 20px;
+	border-radius: 20px;
+	border:1px solid #ccc;
+	height:40px;
+	width: 130px;
+	font-size: 15px;
+	background: #fff;
+	color: #666666;
+}
+.box9 .media{
+	border: 1px solid #ccc;
+	height: 120px;
+  padding-top: 30px;
+}
+.box10 .daili{
+	color: #666;
+	font-size: 25px;
+}
+.box10 button{
+	margin-top: 20px;
+	border-radius: 20px;
+	border:1px solid red;
+	height:50px;
+	width: 180px;
+	font-size: 15px;
+	background: #fff;
+	color: red;
+}
+.box10{
+	background: #f8f8f8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.box11{
+	margin-top: 60px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.us .address{
+	font-size: 12px;
+}
+.us .time{
+	font-size: 12px;
+}
+.box12{
+	margin-top: 40px;
+}
+.box12 li{
+	list-style: none;
+}
+.list1{
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid #000;*/
+	height: 20px;
+	width: 400px;
+	text-align: center;
+}
+.list1 li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
+.box13{
+	margin-top: 100px;
+}
+.list1 li a{
+	text-decoration: none;
+	color: #000;
+}
+.right a{
+	text-decoration: none;
+	color: #000;
+}
+
+.ul1 li{
+	margin-top: 10px;
+}
+.ul1 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul2 li{
+	margin-top: 10px;
+}
+.ul2 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul3 li{
+	margin-top: 10px;
+}
+.ul3 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul4 li{
+	margin-top: 10px;
+}
+.ul4 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul5 li{
+	margin-top: 10px;
+}
+.ul5 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul6 li{
+	margin-top: 10px;
+}
+.ul6 li a{
+	text-decoration: none;
+	color: #666;
+}
+@media only screen and (max-width:1200px) {
+	.ul1,.ul2,.ul3,.ul4,.ul5,.ul6{
+		display: none;
+	}
+}

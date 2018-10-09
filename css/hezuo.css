@@ -1,0 +1,323 @@
+.navbar-brand{
+	margin-top: -15px;
+}
+.listnav>li a:hover{
+	border-bottom:1px solid red;
+}
+.listnav li{
+	background: #fff;
+}
+/*.listnav{
+	z-index: 10;
+}*/
+.current{
+	border-bottom: 1px solid red;
+}
+.box{
+	background: #fff;
+	height: 82px;
+}
+.box .container{
+	margin-top: 30px;
+}
+
+
+@media only screen and (max-width:992px) {
+	.box{
+		height: 52px;
+	}
+	.box .container{
+		margin-top: 0px;
+	}
+	.navbar-brand img{
+		height: 20px;
+		margin-top: 15px;
+	}
+}
+.btn{
+	float: left;
+}
+.vedio1{
+	margin-top:-20px;
+	z-index: -9999;
+	-webkit-filter:contrast(70%);
+	z-index: -9999;
+}
+.join{
+	width: 100%;
+	background: url(../img/tongxing.png) no-repeat;
+	height: 400px;
+	background-size:100% 100%;
+	text-align: center;
+}
+.tongxing{
+	float: right;
+	margin-top: 200px;
+	margin-right: 50px;
+}
+.title{
+	font-size: 50px;
+	color: #000;
+}
+.content{
+	font-size: 15px;
+	color: #ccc;
+}
+.join button{
+	width: 150px;
+	height: 50px;
+	border: 1px solid red;
+	border-radius: 20px;
+	background: #fff;
+	margin-top: 20px;
+}
+.join button a{
+	text-decoration: none;
+	color: red;
+}
+.box1{
+	margin-top: 20px;
+}
+.box1 h3{
+	font-size: 30px;
+	color: #fff;
+	margin-top:50px;
+}
+.box1 p{
+	font-size: 15px;
+	margin-top: 20px;
+	color:#fff;
+}
+.box1 .left{
+	background: #c32930;
+}
+.box1 .right{
+	background: #d0333d;
+}
+.box1 button{
+	
+	border: 1px solid #fff;
+	border-radius: 20px;
+	width: 100px;
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.box1 button a{
+	text-decoration: none;
+	color: #fff;
+}
+.box1 .btn1{
+	background:#c32930 ;
+}
+.box1 .btn2{
+	background: #d0333d;
+}
+.box2 .wel{
+	font-size: 35px;
+	color: #000;
+	margin-top: 30px;
+	font-weight: 200;
+}
+.box3{
+	margin-top: 50px;
+}
+.box4 .xinlai{
+	font-size: 35px;
+	color: #000;
+	margin-top: 30px;
+	font-weight: 200;
+}
+.box4 .zhuanye{
+	font-size: 20px;
+	color: #666;
+	
+}
+.box5{
+	width: 100%;
+	background: url(../img/xin.png) no-repeat;
+	height: 400px;
+	background-size:100% 100% ;
+	margin-top: 30px;
+}
+.box6 .row{
+	margin-top: 200px;
+}
+.box7{
+	margin-top: 80px;
+}
+.box7 .zhichi{
+   font-size: 35px;
+   color: #000;
+   margin-top: 50px;
+}
+.box7 .help{
+	font-size: 15px;
+	color: #666666;
+}
+.box8{
+	margin-top: 50px;
+}
+.box8 .btn3{
+	border-radius: 20px;
+	background: #fff;
+	width: 250px;
+	height: 50px;
+	border: 1px solid #666;
+}
+.box8 .btn3 a{
+	color: #666666;
+	font-size: 20px;
+	text-decoration: none;
+}
+.box9 .row{
+	margin-top: 50px;
+}
+.box10{
+	margin-top: 30px;
+}
+.box10 .connection{
+   font-size: 35px;
+   color: #000;
+   margin-top: 50px;
+}
+.box10 .taolun{
+	font-size: 15px;
+	color: #666666;
+}
+.box11{
+	margin-top: 50px;
+}
+.box11 .name{
+	color: #000;
+	font-size: 20px;
+}
+.box11 p a{
+	text-decoration: none;
+	color: #666;
+	
+}
+.box11 p a:hover{
+	color: red;
+}
+.box12{
+	margin-top: 30px;
+}
+.box12 .daili{
+   font-size: 35px;
+   color: #000;
+   margin-top: 50px;
+}
+.box12 .dingdan{
+	font-size: 15px;
+	color: #666666;
+}
+.box13{
+	margin-top: 60px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.us .address{
+	font-size: 12px;
+}
+.us .time{
+	font-size: 12px;
+}
+.box14{
+	margin-top: 40px;
+}
+.box14 li{
+	list-style: none;
+}
+.ul1 li{
+	margin-top: 10px;
+}
+.ul1 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul2 li{
+	margin-top: 10px;
+}
+.ul2 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul3 li{
+	margin-top: 10px;
+}
+.ul3 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul4 li{
+	margin-top: 10px;
+}
+.ul4 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul5 li{
+	margin-top: 10px;
+}
+.ul5 li a{
+	text-decoration: none;
+	color: #666;
+}
+.ul6 li{
+	margin-top: 10px;
+}
+.ul6 li a{
+	text-decoration: none;
+	color: #666;
+}
+.list1{
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid #000;*/
+	height: 20px;
+	width: 400px;
+	text-align: center;
+}
+.list1 li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
+.box15{
+	margin-top: 100px;
+}
+.list1 li a{
+	text-decoration: none;
+	color: #000;
+}
+.right a{
+	text-decoration: none;
+	color: #000;
+}
+.prohr{
+	    width: 40px;
+    
+    border-bottom: 3px solid #000;
+}
+.prohr1{
+	width: 40px;
+    margin: 0px auto;
+    border-bottom: 3px solid #000;
+}
+.prohr2{
+	width: 40px;
+    margin: 0px auto;
+    border-bottom: 3px solid red;
+}
+.experience{
+	margin-top: 20px;
+}
+.tel{
+	margin-top: 30px;
+}
+@media only screen and (max-width:1200px) {
+	.ul1,.ul2,.ul3,.ul4,.ul5,.ul6{
+		display: none;
+	}
+}

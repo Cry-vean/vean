@@ -1,0 +1,210 @@
+.navbar-brand{
+	margin-top: -15px;
+}
+.listnav>li a:hover{
+	border-bottom:1px solid red;
+}
+.listnav li{
+	background: #fff;
+}
+.current{
+	border-bottom: 1px solid red;
+}
+.box{
+	background: #fff;
+	height: 82px;
+}
+.box .container{
+	margin-top: 30px;
+}
+
+
+@media only screen and (max-width:992px) {
+	.box{
+		height: 52px;
+		/*top:0px;
+		position: fixed;*/
+	}
+	.box .container{
+		margin-top: 0px;
+	}
+	.navbar-brand img{
+		height: 20px;
+		margin-top: 15px;
+	}
+}
+
+.search{
+	background-color: transparent;
+    border:1px solid #eee;
+    border-radius: 5px;
+    height: 34px;
+    line-height: 34px;
+    width: 305px;
+    margin-top: -45px;
+    float: right;
+}
+.searchinput{
+	    height: 32px;
+    line-height: 32px;
+    /*border: 1px solid #000;*/
+    width: 250px;
+    float: left;
+    margin-left: 7px;
+}
+#txtsearch{
+	 height: 32px;
+    line-height: 32px;
+      width: 250px;
+      border:none ;
+}
+.btnsearch{
+	display: block;
+	/*border: 1px solid red;*/
+	background-color: transparent;
+	width: 45px;
+	  height: 32px;
+	 float: left;
+	 text-align: center;
+}
+.btnsearch img{
+	margin-top: -5px;
+	
+}
+input {
+	outline: none;
+}
+input::-webkit-input-placeholder {
+	color: #ccc;
+	font-size: 15px;
+}
+@media only screen and (max-width: 992px) {
+	.search{
+		display: none;
+	}
+}
+.box1{
+	
+	margin-top: 100px;
+}
+.box2{
+	
+	margin-top: 100px;
+}
+@media only screen and (max-width: 768px) {
+	.media-body p{
+		display: none;
+	}
+}
+.box1 .media-body h4 a{
+		text-decoration: none;
+		color: #000;
+}
+
+.box2 .media-body p a{
+	text-decoration: none;
+		color: #000;
+}
+.more{
+	width: 120px;
+	height: 40px;
+	border: 1px solid #dd0000;
+	background: #fff;
+	color: red;
+	border-radius: 10px;
+	margin-top: 30px;
+	
+}
+.btnmore{
+	margin-left: auto;
+	margin-right:auto;
+	width: 120px;
+	
+}
+.login span a{
+	color: #000;
+	text-decoration: none;
+}
+.login span a:hover{
+	color:red;
+}
+.qiandao h3 a{
+	color: #000;
+	text-decoration: none;
+}
+.qiandao p a{
+	color: #999;
+}
+.qiandao{
+	margin-top: 20px;
+}
+.gonggao{
+	font-size: 25px;
+	border-bottom: 1px solid #dddddd;
+	margin-top: 10px;
+}
+.tongzhi span{
+	float: right;
+	display: block;
+}
+.tongzhi p a{
+	color: #000;
+	text-decoration: none;
+}
+.tongzhi p{
+	margin-top: 20px;
+}
+.peixun,.gengxin,.zhuti{
+	font-size: 25px;
+	border-bottom: 1px solid #dddddd;
+	margin-top: 30px;
+}
+
+.xia button{
+	width: 220px;
+	height: 45px;
+	background: #e33333;
+	border: none;
+	margin-top: 10px;
+
+}
+.xia button a{
+	text-decoration: none;
+	color: #fff;
+}
+.xia button:hover{
+	background: #dd0000;
+}
+.xia img{
+	margin-top: 10px;
+}
+.box3{
+	height:100px;
+	width: 100%;
+	background:#f8f8f8;
+	/*border: 1px solid #000;*/
+	margin-top: 30px;
+}
+
+.list1{
+	margin-top:40px;
+}
+.list1 li{
+	list-style:none;
+	float: left;
+	margin-left: 20px;
+}
+.list1 li a{
+	color:#66667c;
+	text-decoration: none;
+}
+.list1 li a:hover{
+	color: red;
+}
+.box4{
+	/*border: 1px solid #000;*/
+	width: 500px;
+}
+.font{
+	background:rgba(0,0,0,0.3);
+}
